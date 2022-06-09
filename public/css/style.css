@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    /* reset Css */
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --orange-color: #FF9900;
+    --while-color: #fff;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.w-50 {
+    width: 50% !important;
+}
+
+.btn-orange {
+    background-color: var(--orange-color);
+    color: #fff;
+}
+
+.color-orange {
+    color: var(--orange-color);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    height: 78px;
+    align-items: center;
+}
+
+.header-nav-right {
+    display: flex;
+}
+
+.flex {
+    display: flex;
+}
+
+.h-100vh{
+    height: 100vh;
+}
+ul.header-nav-menu {
+    display: flex;
+    list-style: none;
+    font-size: 14px;
+}
+
+.header-nav-left {
+    display: flex;
+    align-items: center;
+}
+
+span.header-brand {
+    font-size: 30px;
+    font-weight: 700;
+    color: #173A56;
+    margin-left: 5px;
+}
+
+li.header-menu-item a {
+    display: inline-block;
+    padding: 12px 14px;
+}
+
+.header-nav-button {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav-button a {
+    display: inline-block;
+    padding: 11px 25px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+a.button-signup {
+    margin-left: 5px;
+    font-weight: 400;
+}
+
+a.button-signin {
+    border-color: #BCD0E5;
+    color: #000;
+    font-weight: 400;
+    margin-left: 25px;
+}
+
+a.btn__get-started.btn-orange {
+    padding: 11px 22px;
+    border-radius: 4px;
+}
+
+.artice-start.flex-center {
+    justify-content: start;
+}
+
+i.color-orange.fa-solid.fa-play {
+    font-size: 25px;
+    margin: 0 15px 0 25px;
+}
+
+.watch-video {
+    text-decoration: underline;
+}
+
+span.artice-title {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+p.artice-detail {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.artice-content.w-50 {
+    padding-right: 50px;
+}
+
+.header-content{
+    margin-top: 50px;
+}

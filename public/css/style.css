@@ -91,7 +91,7 @@ ul.header-nav-menu {
   font-size: 14px;
 }
 
-.header-nav-left {
+.header-nav-left,.footer-logo {
   display: flex;
   align-items: center;
 }
@@ -186,6 +186,22 @@ p.artice-detail {
   background: red;
   border-radius: 14px;
   box-shadow: 0px 2px 3px 0px;
+}
+
+.bg-1{
+  background-color: #7752BE !important;
+}
+
+.bg-2{
+  background-color: #FAB005 !important;
+}
+
+.bg-3{
+  background-color: #F03E3D !important;
+}
+
+.bg-4{
+  background-color: #4DADF7 !important;
 }
 
 span.we-design__item-title {

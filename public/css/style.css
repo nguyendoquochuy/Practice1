@@ -30,7 +30,13 @@
 }
 
 .flex-start {
+  display: flex;
   justify-content: flex-start;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
 }
 
 
@@ -293,17 +299,18 @@ span.post-item-title-child {
 }
 
 .w-50.post-item-detail {
-  padding-right: 60px;
+  padding-right: 104px;
   text-align: justify;
 }
 
-.post-item-thumb {
-  display: flex;
-  justify-content: flex-end;
+.w-50.post-item-detail-right {
+  padding-left: 104px;
+  text-align: justify;
 }
 
+
 .post-item-thumb>img {
-  width: 80%;
+  width: 86%;
   object-fit: contain;
 }
 
@@ -313,6 +320,7 @@ span.post-item-title-child {
 
 .post-item-desc-list {
   list-style-type: none;
+  margin-top: 30px;
 }
 
 .post-desc-item {
@@ -494,7 +502,7 @@ p.content__hero-detail {
 }
 
 .content__marketing {
-  margin-top: 40px;
+  margin-top: 160px;
   display: flex;
   flex-direction: column;
 }
@@ -579,8 +587,6 @@ p.content__hero-detail {
   font-weight: 700;
   font-size: 24px;
   line-height: 34px;
-  color: #FF9900;
-  ;
   text-transform: capitalize;
 }
 
@@ -631,13 +637,16 @@ p.content__hero-detail {
 
 .footer-list-item a:hover {
   color: #FF9900;
+}
 
+.footer-list-item {
+  margin-bottom: 10px;
 }
 
 .footer-register {
+  margin-top: 28px;
   display: flex;
   flex-direction: column;
-
 }
 
 .footer-register input {
@@ -650,7 +659,7 @@ p.content__hero-detail {
 
 .footer-btn {
   max-width: 130px;
-  margin-top: 10px;
+  margin-top: 20px;
   background: #FF9900;
   border-radius: 4px;
   max-height: 39px;

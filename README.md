@@ -26,8 +26,6 @@
 - Work fine on Chrome browser latest version
 - Use the right HTML tags
 - Apply Flexbox
-- Apply CSS Guideline
-- Use validate tools: https://validator.w3.org/
 
 ## How to run the project
 
